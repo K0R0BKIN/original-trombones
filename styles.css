@@ -156,11 +156,19 @@ nav li {
 /* Main section */
 
 main {
-  padding-top: 53px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: calc(36px + 53px) 36px;
+  gap: 48px;
+
+  width: 100%;
+  height: fit-content;
 }
 
 @media (max-width: 768px) {
   main {
-    padding-top: 106px;
+    padding: calc(36px + (53px * 2)) 16px;
   }
 }
