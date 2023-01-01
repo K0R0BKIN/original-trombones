@@ -153,6 +153,10 @@ nav li {
   }
 }
 
+.nav-link {
+  font-size: 24px;
+}
+
 /* Main section */
 
 main {
