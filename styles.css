@@ -213,6 +213,7 @@ input:focus {
 
 #email-address-field input {
   padding-left: 5px;
+  font-size: 1rem;
 }
 
 #get-started-button {
