@@ -184,6 +184,7 @@ main {
 }
 
 #email-form input {
+  height: 100%;
   width: 100%;
 
   font-family: inherit;
@@ -191,11 +192,15 @@ main {
   border: none;
 }
 
+input:focus {
+  outline: 2px solid;
+  outline-offset: -1px;
+}
+
 #email-address-field {
   display: flex;
   flex-direction: row;  
   align-items: center;
-  padding: 4px;
 
   width: 240px;
   height: 100%;
