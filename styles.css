@@ -182,3 +182,21 @@ main {
 
   border: 1px solid #000000;
 }
+
+#email-address-field {
+  display: flex;
+  flex-direction: row;  
+  align-items: center;
+  padding: 4px;
+
+  width: 240px;
+  height: 100%;
+}
+
+#email-form #email {
+  width: 100%;
+
+  font-family: inherit;
+  
+  border: none;
+}
