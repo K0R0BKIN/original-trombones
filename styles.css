@@ -179,7 +179,7 @@ main {
 
 #email-form form {
   display: flex;
-  flex-direction: row;  
+  flex-direction: row;
   align-items: center;
 
   width: fit-content;
@@ -193,7 +193,7 @@ main {
   width: 100%;
 
   font-family: inherit;
-  
+
   border: none;
 }
 
@@ -204,7 +204,7 @@ input:focus {
 
 #email-address-field {
   display: flex;
-  flex-direction: row;  
+  flex-direction: row;
   align-items: center;
 
   width: 240px;
@@ -213,4 +213,28 @@ input:focus {
 
 #email-address-field input {
   padding-left: 5px;
+}
+
+#get-started-button {
+  width: fit-content;
+  height: 100%;
+}
+
+#get-started-button input {
+  text-transform: uppercase;
+  font-family: 'Abhaya Libre';
+  font-weight: 600;
+  font-size: 16px;
+
+  border: none;
+  padding: 4px 8px;
+
+  cursor: pointer;
+
+  background-color: var(--milk-color);
+  border-left: 1px solid;
+}
+
+#get-started-button input:hover {
+  background-color: var(--dark-milk-color);
 }
