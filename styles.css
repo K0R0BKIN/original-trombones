@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;600;700;800&display=swap');
 
+:root {
+  --milk-color: #F5F5F5;
+  --dark-milk-color: #CECECE;
+}
+
 * {
   margin: 0;
   padding: 0;
