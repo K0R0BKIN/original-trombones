@@ -205,3 +205,7 @@ input:focus {
   width: 240px;
   height: 100%;
 }
+
+#email-address-field input {
+  padding-left: 5px;
+}
