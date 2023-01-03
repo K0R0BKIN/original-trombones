@@ -239,3 +239,16 @@ input:focus {
 #get-started-button input:hover {
   background-color: var(--dark-milk-color);
 }
+
+/* Features section */
+
+#features {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+
+  width: 100%;
+  height: fit-content;
+}
