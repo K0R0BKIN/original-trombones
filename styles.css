@@ -257,3 +257,51 @@ input:focus {
   font-weight: 700;
   font-size: 36px;
 }
+
+#feature-cards {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  gap: 24px;
+
+  width: fit-content;
+  height: fit-content;
+}
+
+.feature-card {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 36px 16px;
+  gap: 16px;
+
+  width: 30vw;
+  max-width: 420px;
+  height: auto;
+
+  border: 1px solid #000000;
+}
+
+.feature-description {
+  width: 100%;
+  height: fit-content;
+}
+
+.feature-description h3 {
+  padding-bottom: 5px;
+
+  font-weight: 600;
+  font-size: 24px;
+}
+
+@media (max-width: 768px) {
+  #feature-cards {
+    flex-direction: column;
+  }
+
+  .feature-card {
+    padding: 24px 16px;
+    
+    width: 80vw;
+  }
+}
