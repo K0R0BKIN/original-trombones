@@ -301,7 +301,14 @@ section {
 
   .feature-card {
     padding: 24px 16px;
-    
+
     width: 80vw;
   }
+}
+
+/* How it works section */
+
+#video {
+  width: 80vw;
+  max-width: 1000px;
 }
