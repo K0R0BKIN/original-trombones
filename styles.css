@@ -309,6 +309,7 @@ section {
 /* How it works section */
 
 #video {
+  aspect-ratio: 16 / 9;
   width: 80vw;
-  max-width: 1000px;
+  max-width: 1200px;
 }
