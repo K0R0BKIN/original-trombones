@@ -232,6 +232,9 @@ input:focus {
   cursor: pointer;
 
   background-color: var(--milk-color);
+
+  appearance: none;
+  color: initial
 }
 
 #get-started-button {
