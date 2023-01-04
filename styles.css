@@ -153,7 +153,7 @@ main {
 
 @media (max-width: 768px) {
   main {
-    padding:calc(36px + (53px * 2)) 16px 36px;
+    padding: calc(36px + (53px * 2)) 16px 36px;
   }
 }
 
@@ -232,6 +232,9 @@ input:focus {
   cursor: pointer;
 
   background-color: var(--milk-color);
+
+  appearance: none;
+  color: initial;
 }
 
 #get-started-button {
