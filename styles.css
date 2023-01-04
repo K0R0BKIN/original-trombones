@@ -58,7 +58,7 @@ header {
   object-position: -11px;
   /* With height of 36px, whitespace is 22px */
 
-  width: fit-content;
+  /* width: fit-content; */
   height: 100%;
 }
 
