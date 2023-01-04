@@ -5,6 +5,10 @@
   --dark-milk-color: #CECECE;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -252,6 +256,14 @@ section {
 
   width: auto;
   height: fit-content;
+
+  scroll-margin-top: 53px;
+}
+
+@media (max-width: 768px) {
+  section {
+    scroll-margin-top: calc(53px * 2);
+  }
 }
 
 .section-title {
